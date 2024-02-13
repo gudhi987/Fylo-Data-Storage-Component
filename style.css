@@ -25,6 +25,7 @@ body {
     min-height: 100vh;
     margin: 0px;
     padding: 0px;
+    padding-inline: 2rem;
 
     background: url(images/bg-desktop.png);
     background-repeat: no-repeat;
@@ -203,7 +204,7 @@ body {
 
 @media screen and (max-width: 500px) {
     body {
-        padding-inline: 2rem;
+        padding-inline: 1.25rem;
     }
     .outer-wrapper {
         width: min(100%,25rem);
